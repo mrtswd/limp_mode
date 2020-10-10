@@ -1,4 +1,3 @@
-# limp_mode
-first
-karatavas ir skatitas no originala:
-https://github.com/kiteco/python-youtube-code/tree/master/build-hangman-in-python
+karatavas ir pārrakstītas no origināla pēc video:
+https://www.youtube.com/watch?v=m4nEnsavl6w
+
