@@ -49,12 +49,17 @@ def play(word):
         else:
             print("Nederīgs minējums.")
         print(display_hangman(tries))
-        print(word_comp)
+        print("Minamais vārds: ", word_comp)
+        print("Burti, kurus esi jau izmantojis: ", listToString(guess_lett))
         print("\n")
     if guessd:
         print("Apsveicam! Tu uzminēji vārdu. Tu vinnēji!!!!")
     else:
         print("Diemžēl visas iesp­ējas izt­ērētas. Vārds bija: " + word + ". Varbūt veiksies nākamajā reizē!")
+
+def listToString(guess_lett):  
+    str1 = " "  
+    return (str1.join(guess_lett))
 
 # draw man in terminal
 def display_hangman(tries):
